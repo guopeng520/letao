@@ -4,3 +4,103 @@ body {
 .mt_150{
   margin-top: 150px;
 }
+
+a:hover{
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+.body{
+  padding-left: 180px;
+  background: #fff;
+  transition: all .5s;
+}
+.body.active {
+  padding: 0;
+}
+.lt_aside {
+  width: 180px;
+  height: 100%;
+  background: #222D32;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: all .5s;
+}
+.lt_aside.active{
+  left: -180px;
+}
+.brand {
+  height: 50px;
+  width: 180px;
+  background: #367FA9;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+.brand  a{
+  display: block;
+  color: #fff;
+}
+.user {
+  width: 180px;
+  height: 150px;
+}
+.user img{
+  display:block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 30px auto 0;
+}
+.user p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.nav ul li a {
+  display: block;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 30px;
+  color: #ccc;
+  border-left: 3px solid transparent;
+}
+.nav ul li a.active{
+  border-left: 3px solid #006699;
+  background: #1D1F21;
+}
+.nav ul li .cate{
+  display: none;
+}
+.nav ul li .cate  a{
+  padding-left: 40px;
+}
+
+.lt_main {
+  width: 100%;;
+  height: 100%;
+  background: #fff;
+}
+.lt_main .topbar  {
+  height: 50px;
+  width: 100%;
+  background: #3C8DBC;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.lt_main .topbar a {
+  font-size: 16px;
+  line-height: 50px;
+  color:#fff;
+}

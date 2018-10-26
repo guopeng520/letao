@@ -20,7 +20,6 @@ $(function(){
     $('#logoutModal').modal('show');
   })
   $('.btn-logout').on('click',function(){
-    console.log(111);
     
     $.ajax({
       type:'get',

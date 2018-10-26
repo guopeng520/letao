@@ -104,3 +104,9 @@ html, body {
   line-height: 50px;
   color:#fff;
 }
+
+.table td,
+.table th {
+  text-align: center;
+  vertical-align: center;
+}

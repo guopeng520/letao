@@ -108,8 +108,8 @@ html, body {
   color:#fff;
 }
 
-.table td,
-.table th {
+.table tbody tr td,
+.table thead tr th {
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }

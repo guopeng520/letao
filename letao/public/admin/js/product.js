@@ -207,6 +207,7 @@ $(function () {
           $('form').data("bootstrapValidator").resetForm(true);
           $('.dropdown-text').html('请选择二级分类');
           $('.img_box').html('');
+          imgs = [];
         }
       }
     })

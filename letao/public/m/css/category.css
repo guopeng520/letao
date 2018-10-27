@@ -1,0 +1,37 @@
+.cate_left {
+  width: 90px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+.cate_left li {
+  width: 100%;
+  height: 50px;
+  background: pink;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+  text-align: center;
+  line-height: 50px;
+}
+.cate_left li.active {
+  background: #fff;
+  border-right: none;
+}
+.cate_left li a {
+  display: block;
+}
+.cate_right {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.cate_right li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+.cate_right li img {
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}
